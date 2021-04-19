@@ -1878,5 +1878,5 @@ end)
 
 Main:line()
      Main:Button("Destroy Gui",function()
-        ui:Destroy()
+      Library:Destroy()
      end)
