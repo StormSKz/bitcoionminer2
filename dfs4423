@@ -1873,10 +1873,14 @@ game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
 end
 end)
 Main:Button("Remove Door",function()
-game:GetService("Workspace")["Region_Cave"].Door:Destory()
+   game:GetService("Workspace")["Region_Cave"].Door:Destory()
 end)
 
 Main:line()
      Main:Button("Destroy Gui",function()
       Library:Destroy()
      end)
+
+     Main:Button("Level 200",function()
+      game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-139.862427, 34.960022, 13901.6768, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+   end)
