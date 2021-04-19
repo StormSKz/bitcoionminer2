@@ -1877,7 +1877,7 @@ Main:Button("Remove Door",function()
 end)
 
 Main:Button("Level 200",function()
-   game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-139.862427, 34.960022, 13901.6768, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+   game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-139.862427, 38.960022, 13901.6768, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 end)
 
 Main:Button("Exchange",function()
