@@ -1909,5 +1909,3 @@ local misc = win:Tab("⚫Misc")
 misc:Button("Destroy Gui",function()
       Library:Destroy()
 end)
-
-while wait() do
