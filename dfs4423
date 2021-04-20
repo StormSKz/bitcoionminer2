@@ -1872,19 +1872,42 @@ if noclip then
 game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
 end
 end)
-Main:Button("Remove Door",function()
-   game:GetService("Workspace")["Region_Cave"].Door:Destory()
-end)
-
-Main:Button("Level 200",function()
+local teleport = win:Tab("⚫Teleport")
+teleport:Button("Level 200 & 300",function()
    game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-139.862427, 38.960022, 13901.6768, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 end)
 
-Main:Button("Exchange",function()
+teleport:Button("Exchange",function()
    game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(224.322815, 10.6378231, 85.6573639, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 end)
 
-Main:line()
-     Main:Button("Destroy Gui",function()
+teleport:Button("GenEX",function()
+   game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-139.387772, 42.38097, 13823.8574, 0, 0, 1, -1, 0, 0, 0, -1, 0)
+end)
+
+teleport:Button("ptiX",function()
+   game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-258.946014, 42.7833252, 13752.4746, -8.10623169e-06, 0.642762303, 0.766065598, -1, -8.10623169e-06, -3.78489494e-06, 3.78489494e-06, -0.766065598, 0.642762303)
+end)
+
+teleport:Button("Solaris Electronics",function()
+   game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8.4221096, 43.1636353, 13750.9141, 1.00135803e-05, 0.342006564, 0.939697623, -1, 1.00135803e-05, 7.00354576e-06, -7.00354576e-06, -0.939697623, 0.342006564)
+end)
+
+teleport:Button("Solaris Generator",function()
+   game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.091465, 42.3228455, 13802.1689, -1.26361847e-05, 0.965938866, 0.258770198, -0.99999994, -1.26361847e-05, -1.66893005e-06, 1.66893005e-06, -0.258770198, 0.965938926)
+end)
+
+teleport:Button("PRISM WORKS",function()
+   game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(149.061005, 42.1121483, 13938.5518, -1.2755394e-05, 0.819186091, -0.573527873, -1, -1.2755394e-05, 3.9935112e-06, -3.9935112e-06, 0.573527873, 0.819186032)
+end)
+
+teleport:Button("XENO",function()
+   game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(72.7151108, 47.2923851, 14024.9492, 6.37769699e-06, -0.173615277, -0.984813631, -1, -6.43730164e-06, -5.42402267e-06, -5.42402267e-06, 0.984813631, -0.173615336)
+end)
+
+local misc = win:Tab("⚫Misc")
+misc:Button("Destroy Gui",function()
       Library:Destroy()
 end)
+
+while wait() do
